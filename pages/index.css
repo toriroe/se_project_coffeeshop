@@ -3,7 +3,7 @@
   max-width: 1600px;
   margin: 0 auto;
   font-family: "Inter", Arial, sans-serif;
-  font-family: "Noto Serif", "Times New Roman", serif;
+
   font-size: 16px;
   line-height: 20px;
 }
@@ -174,7 +174,7 @@
   height: 273px;
 }
 
-.recipe__video {
+.recipes__video {
   margin: 0;
   padding-top: 0;
   padding-bottom: 24px;
@@ -184,7 +184,7 @@
   border: none;
 }
 
-.recipes__video-caption {
+.recipes__caption {
   font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
   font-size: 20px;
