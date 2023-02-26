@@ -10,7 +10,8 @@ This is the second project of the Web Development program at Practicum. It was c
 - Flat BEM
 - A custom form
 - CSS animation and transform
+- Embedded video content from Youtube
 
 ## Plan on improving the project
 
-Add your ideas here :)
+- List of more recipe links on the "Recipes" section, like an "Our Favorites" for recipes
