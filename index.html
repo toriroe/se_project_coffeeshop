@@ -108,7 +108,70 @@
             </li>
           </ul>
         </section>
-        <section class="reservation" id="section-reservation"></section>
+        <section class="reservation" id="section-reservation">
+          <h2 class="reservation__title">Book a table</h2>
+          <form class="reservation__form form">
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="name">Name * </label>
+              <input
+                type="text"
+                class="form__input"
+                id="name"
+                placeholder="Name Surname"
+                required
+              />
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="guest-number"
+                >Number of guests *
+              </label>
+              <input
+                type="number"
+                min="1"
+                placeholder="1-8"
+                class="form__input"
+                id="guest-number"
+                required
+              />
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="date-time">Date & time * </label>
+              <input
+                type="datetime-local"
+                class="form__input"
+                id="date-time"
+                required
+              />
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="email">Your email * </label>
+              <input
+                type="email"
+                class="form__input"
+                id="email"
+                placeholder="email@email.com"
+                required
+              />
+            </fieldset>
+
+            <fieldset class="form__fieldset">
+              <button class="form__button" type="submit">Book a table</button>
+            </fieldset>
+            <!--I am using a label to wrap around the checkbox input and label so I can apply different styles to it-->
+            <label class="form__checkbox-wrapper">
+              <input
+                class="form__checkbox"
+                type="checkbox"
+                id="form-checkbox"
+              />
+              <span class="visible-checkbox"></span>
+
+              <label class="form__checkbox-label" for="form-checkbox"
+                >I agree with the terms of use</label
+              >
+            </label>
+          </form>
+        </section>
         <section class="menu" id="section-menu"></section>
         <section class="about" id="section-about"></section>
       </main>
