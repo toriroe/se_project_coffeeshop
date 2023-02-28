@@ -1,0 +1,98 @@
+.form {
+  max-width: 385px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form__fieldset {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  margin: 0;
+  padding: 0 0 32px;
+}
+
+.form__label {
+  margin: 0;
+  padding: 0 0 8px;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__input {
+  border-radius: 4px;
+  border-color: #838383;
+
+  height: 60px;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.form__input::-ms-input-placeholder {
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+}
+
+.form__button {
+  height: 60px;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  border-radius: 4px;
+  border: none;
+  background-color: #2f80ed;
+  transition: opacity 1s;
+}
+
+.form__button:hover {
+  opacity: 0.7;
+}
+
+/*I gave this element the display: flex property so that the checkbox and the label would be on the same level */
+
+.form__checkbox-wrapper {
+  border: none;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+}
+
+.form__checkbox {
+  height: 20px;
+  width: 20px;
+  border-radius: 2px;
+}
+
+/*When checked, the .form__checkbox element will become invisible */
+.form__checkbox:checked {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+/* When checked, the styles for .visible-checkbox will override the default styles for the checkbox */
+.form__checkbox:checked + .visible-checkbox {
+  height: 20px;
+  width: 20px;
+  border-radius: 2px;
+  background-color: #2f80ed;
+  background-image: url(/images/check.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  /* I changed the background size to 80% of width and height to match the appearance in the brief */
+  background-size: 80% 80%;
+}
+
+.form__checkbox-label {
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  padding-left: 12px;
+}
