@@ -18,9 +18,9 @@
   z-index: -1;
   margin: 0;
   padding: 0 80px;
-
   display: flex;
   justify-content: space-between;
+  overflow: hidden;
 }
 
 .about__title {

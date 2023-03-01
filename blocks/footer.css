@@ -48,6 +48,8 @@
   color: #fff;
   text-decoration: none;
   transition: color 1s;
+  display: flex;
+  align-items: center;
 }
 
 .footer__social-link:hover {

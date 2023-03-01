@@ -1,8 +1,6 @@
 .header {
   background-image: url(/images/background_header.svg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: cover center no-repeat;
   height: 100vh;
   min-height: 720px;
   max-height: 800px;
@@ -73,8 +71,7 @@
   color: #838383;
 }
 
-.header__hours-list {
-  list-style-type: none;
+.header__hours {
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -82,12 +79,8 @@
   z-index: 1;
 }
 
-.header__hours-list-item {
+.header__paragraph {
   margin: 0;
   padding: 0;
-}
-
-.header__address {
   z-index: 1;
-  margin: 0;
 }
