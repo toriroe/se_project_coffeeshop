@@ -1,6 +1,5 @@
 .header {
-  background-image: url(/images/background_header.svg);
-  background: cover center no-repeat;
+  background: center / cover no-repeat url(../images/background_header.svg);
   height: 100vh;
   min-height: 720px;
   max-height: 800px;
