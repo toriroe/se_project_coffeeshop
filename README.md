@@ -9,7 +9,6 @@ This is the second project of the Software Engineering program at Practicum (now
 - Positioning
 - Flat BEM
 - A custom form
-- Used span element to apply custom styles to checkbox
 - CSS animation and transform
 - Embedded video content from Youtube
 
@@ -17,3 +16,8 @@ This is the second project of the Software Engineering program at Practicum (now
 
 - List of more recipe links on the "Recipes" section, like an "Our Favorites" for recipes
 - Having a message of some kind pop up after submitting the form, to confirm to the user that the form was submitted
+
+## Links
+
+- [Site](https://toriroe.github.io/se_project_coffeeshop/)
+- Project brief [part 1](https://practicum-content.s3.us-west-1.amazonaws.com/web-developer/project-2/project-2-stage-2-brief.pdf) [part 2](https://practicum-content.s3.us-west-1.amazonaws.com/web-developer/project-2/project-2-stage-3-brief.pdf) [part 3](https://practicum-content.s3.us-west-1.amazonaws.com/web-developer/project-2/project-2-stage-4-brief.pdf)
