@@ -1,4 +1,4 @@
-# Practicum Coffee Shop
+# 'Practicum Coffee Shop' Project
 
 This is the second project of the Software Engineering program at Practicum (now called Tripleten). It was created using HTML and CSS, based on the design brief.
 
