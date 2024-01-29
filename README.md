@@ -9,8 +9,11 @@ This is the second project of the Software Engineering program at Practicum (now
 - Positioning
 - Flat BEM
 - A custom form
+![](https://github.com/toriroe/se_project_coffeeshop/blob/main/form.gif)
 - CSS animation and transform
+![](https://github.com/toriroe/se_project_coffeeshop/blob/main/animation.gif)
 - Embedded video content from Youtube
+![](https://github.com/toriroe/se_project_coffeeshop/blob/main/videos.gif)
 
 ## Plan on improving the project
 
