@@ -22,8 +22,8 @@ This is the second project of the Software Engineering program at Practicum (now
 
 ## Links
 
-- [Github page](https://toriroe.github.io/se_project_coffeeshop/)
-- Project brief [part 1](https://practicum-content.s3.us-west-1.amazonaws.com/web-developer/project-2/project-2-stage-2-brief.pdf) [part 2](https://practicum-content.s3.us-west-1.amazonaws.com/web-developer/project-2/project-2-stage-3-brief.pdf) [part 3](https://practicum-content.s3.us-west-1.amazonaws.com/web-developer/project-2/project-2-stage-4-brief.pdf)
+[Github page](https://toriroe.github.io/se_project_coffeeshop/)
+Project brief [part 1](https://practicum-content.s3.us-west-1.amazonaws.com/web-developer/project-2/project-2-stage-2-brief.pdf) [part 2](https://practicum-content.s3.us-west-1.amazonaws.com/web-developer/project-2/project-2-stage-3-brief.pdf) [part 3](https://practicum-content.s3.us-west-1.amazonaws.com/web-developer/project-2/project-2-stage-4-brief.pdf)
 
 ## Demo
 
